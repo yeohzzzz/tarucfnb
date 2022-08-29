@@ -1,0 +1,128 @@
+body {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../pictures/background2.jpeg");
+    background-size: cover;
+
+}
+
+header {
+    text-align: center;
+    color: #f3a974d5;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+h2 {
+    color: rgba(231, 160, 78, 0.911);
+}
+
+h3 {
+    color: fuchsia;
+    font-weight: bold;
+    font-size: large;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;    
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+footer {
+    color: black;
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table tr th {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+table tr td {
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+main dl dt strong {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+
+.floatright {
+    float: right;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+/* Style buttons */
+.btn {
+    background-color: #FEF6C2;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #CC9933;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
